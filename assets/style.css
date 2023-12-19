@@ -17,6 +17,7 @@ body{
 }
 
 .logotipo{
+    width: 110px;
     margin: 7px 0 0 135px;
     transition: transform 0.3s linear;
 }
@@ -55,7 +56,7 @@ body{
     color: white;
 }
 
-img #img_inicial #topmodel{
+img {
     width: 100%;
 }
 
@@ -76,9 +77,14 @@ img #img_inicial #topmodel{
 }
 
 .gallery{
+    width: 86%;
     color: #555;
     padding: 0 100px 50px 100px;
     overflow: auto;
+}
+
+.gallery img{
+    width: 60%;
 }
 
 /*overflow é uma gambiarra pro texto abaixo das imagens não quebrarem */
