@@ -1,0 +1,199 @@
+body{
+    font-family: tahoma, arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#principal{
+    
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header-top{
+    height: 50px;
+    background: #162028;
+    position: relative;
+}
+
+.logotipo{
+    margin: 7px 0 0 135px;
+    transition: transform 0.3s linear;
+}
+
+.logotipo:hover{
+    transform: scale(1.1);
+}
+
+.header-nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.header-nav ul{
+    margin: 0;
+    padding: 0;
+}
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px 0 0;
+    padding: 13px;
+}
+
+.header-nav a{
+    color: #425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 5px;
+    transition: color 0.3s linear ;
+}
+
+.header-nav a:hover{
+    color: white;
+}
+
+img #img_inicial #topmodel{
+    width: 100%;
+}
+
+.portfolio{
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.portfolio h1{
+    font-size: 36px;
+    color: #252525
+}
+
+.portfolio p{
+    font-size: 16px;
+    line-height: 2;
+    color: #555;
+}
+
+.gallery{
+    color: #555;
+    padding: 0 100px 50px 100px;
+    overflow: auto;
+}
+
+/*overflow é uma gambiarra pro texto abaixo das imagens não quebrarem */
+
+.gallery-card{
+    width: 33%;
+    float: left;
+    text-align: center;
+    box-shadow: 0 8px 6px -6px #888;
+    transition: transform 0.3s linear;
+}
+
+.gallery-card:hover{
+    transform: scale(0.9);
+}
+
+.gallery-card a{
+    text-decoration: none;
+}
+
+.gallery-title{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#about{
+    background-color: #003d52;
+    padding: 100px;
+    color: white;
+    background-image: url(imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+#about h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;  
+    margin-top: 0;
+}
+
+#about p{
+    line-height: 1.5;
+    width: 70%;
+}
+
+#contact{
+    margin: 50px 50px;
+    
+}
+
+#contact address{
+    color: #143f52;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+}
+
+.maps{
+    width: 100%;
+    height: 450px;
+    margin-top: 30px;
+}
+.maps iframe{
+    width: 100%;
+}
+
+form{   
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+input{
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 5px;
+    background: #0b171f;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+    
+  }
+ button:hover {
+    background: #143f52;
+  }
+
+#rodape{
+    background: #0b171f;
+    padding: 25px;
+    font-size: 12px;
+    color: #6f8597;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 730px){
+    .principal{
+        
+    }
+
+}
