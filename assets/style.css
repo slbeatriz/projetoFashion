@@ -198,8 +198,17 @@ button {
 
 
 @media screen and (max-width: 730px){
-    .principal{
-        
+    
+    .gallery{
+        display: none;
+    }
+
+    #about h2{
+        font-size: 35px;
+    }
+
+    form{
+      display: block;  
     }
 
 }
