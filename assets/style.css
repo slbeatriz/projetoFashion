@@ -4,8 +4,7 @@ body{
     padding: 0;
 }
 
-#principal{
-    
+#principal{ 
     margin: 0 auto;
     padding: 0;
 }
@@ -26,14 +25,35 @@ body{
     transform: scale(1.1);
 }
 
-#menu {
-    display: none;
-  }
-
 #menu-button{
-    color: #0b171f;
-    background-color: white;
+    position:relative; 
+    bottom:35px; 
+    left: 320px;
+}
+
+#menu ul{
+    list-style: none;
+    margin-top: 0px;
+    justify-content: center;
+    text-align:end;
+    align-items:end;
+    padding-right: 10px;
+}
+
+#menu li{
+    position:relative; 
+    bottom:15px;  
+    padding: 10px;
+}
+
+#menu a{
+    color: #425564;
     text-decoration: none;
+}
+
+#menu-button{   
+    color:#f0f8ff;
+    background-color:#0b171f;
 }  
 
 .header-nav{
@@ -66,11 +86,17 @@ body{
     color: white;
 }
 
+.topmodel{
+    position:relative; 
+    bottom:23px; 
+}
+
 img {
     width: 100%;
 }
 
 .portfolio{
+    margin-top: 0;
     padding: 50px 100px;
     text-align: center;
 }
@@ -182,7 +208,7 @@ input{
     margin: 10px;
 }
 
-button {
+#sub {
     width: 80px;
     height: 30px;
     border-radius: 10px;
@@ -193,7 +219,7 @@ button {
     cursor: pointer;
     
   }
- button:hover {
+#sub:hover {
     background: #143f52;
   }
 
@@ -206,6 +232,16 @@ button {
     text-align: center;
 }
 
+@media screen and (min-width: 1080px){
+    #menu-button{
+        display: none;
+    }
+
+    .topmodel{
+        position: relative;
+        bottom:0;  
+    }
+}
 
 @media screen and (max-width: 730px){
     
